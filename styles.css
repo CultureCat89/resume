@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    background: #8c8a8f9d;
+}
+
+.name {
+    color: #3a4372;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 255, 0);
+}
+
+a:visited {
+    color: rgba(192, 171, 171, 0.185);
+}
+
+h2 {
+    color: #000;
+}
+
+.card {
+    background: #249cb2;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+
+form {
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#text, #email, #message {
+    background: #d9d9d9;
+    border-radius: 10px;
+}
+
+#send {
+    border-radius: 10px;
+}
+
+.mgpx {
+    width: 80%;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.feedback div {
+    margin: 10px;
+}
+
+.btn {
+    padding: 10px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 0, 0.688);
+    font-weight: 800;
+}
+
+.btn:active {
+    background: goldenrod;
+}
+
+.mgpx tr:hover {
+    background:rgb(33, 115, 148);
+    color: rgb(255, 196, 0);
+}
+
